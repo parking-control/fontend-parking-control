@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { InputComponent } from '../../Components/input/input.component';
 
 @Component({
-  selector: 'app-login',
+  selector: 'app-register-2',
   standalone: true,
   imports: [InputComponent],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.css'
+  templateUrl: './register-2.component.html',
+  styleUrl: './register-2.component.css'
 })
-export class LoginComponent {
+export class Register2Component {
 
 }
