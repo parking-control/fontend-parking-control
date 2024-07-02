@@ -2,12 +2,13 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { LoginComponent } from './Pages/login/login.component';
 import { RegisterComponent } from './Pages/register/register.component';
-import { Register2Component } from './Pages/register-2/register-2.component';
+import { HomeComponent } from './Pages/home/home.component';
+import { ProfileComponent } from './Pages/profile/profile.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, LoginComponent, RegisterComponent, Register2Component],
+  imports: [RouterOutlet, LoginComponent, RegisterComponent, HomeComponent, ProfileComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

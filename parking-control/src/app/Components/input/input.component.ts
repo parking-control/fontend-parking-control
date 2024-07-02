@@ -11,4 +11,5 @@ export class InputComponent {
   @Input() label?: string;
   @Input() imgSrc?: string;
   @Input() inputType?: string;
+  @Input() value?: string;
 }

@@ -1,14 +1,16 @@
 <!-- Input -->
 <div class="border-b-2 border-blue-600 w-full block px-3">
-	<label for="input"
+	<h1
 		class="text-blue-800 text-sm md:text-lg font-normal w-full">
 		{{label}}
-	</label>
+	</h1>
 	<div class="flex justify-between w-full">
 		<input type={{inputType}}
-			class="outline-none text-lg font-medium text-blue-800 w-5/6">
-		<img src={{imgSrc}}
-			alt="user icon"
-			class="pb-1 w-1/6">
+			class="outline-none text-lg font-medium text-blue-800 w-5/6" value={{value}}>
+		@if (imgSrc) {
+			<img src={{imgSrc}}
+				alt="user icon"
+				class="pb-1 w-1/6">
+		}
 	</div>
 </div>

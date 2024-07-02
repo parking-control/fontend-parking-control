@@ -1,0 +1,31 @@
+<div class="w-screen">
+    <app-header />
+    <section class="w-full flex flex-col items-center">
+        <div class="w-2/3 mt-8 flex flex-col">
+            <h1 class="text-xl text-blue-800 font-semibold pl-3">General Info</h1>
+            <hr class="border-blue-800 border-t-2 rounded mb-2 mt-1">
+            <div action="" class="w-4/5 flex flex-col m-auto">
+                <app-input inputType="text" label="Company name" value=""/>
+                <app-input inputType="text" label="Username" value=""/>
+                <app-input inputType="text" label="Password" value=""/>
+                <app-input inputType="text" label="CNPJ" value=""/>
+            </div>
+            
+            <h1 class="text-xl text-blue-800 font-semibold mt-8 pl-3">Address</h1>
+            <hr class="border-blue-800 border-t-2 rounded mb-2 mt-1">
+            <div action="" class="w-4/5 flex flex-col m-auto">
+                <app-input inputType="text" label="CEP" value=""/>
+                <app-input inputType="text" label="City" value=""/>
+                <app-input inputType="text" label="State" value=""/>
+                <app-input inputType="text" label="Number" value=""/>
+            </div>
+
+            <button class="bg-blue-800 hover:bg-blue-900 active:bg-blue-800 rounded-full px-4 py-2 flex self-end items-center justify-center mt-8">
+                <h1 class="text-white font-semibold text-base">Update Info</h1>
+            </button>
+        </div>
+
+        <div class="m-4"></div>
+    </section>
+
+</div>
